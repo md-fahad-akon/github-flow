@@ -45,7 +45,7 @@ if __name__ == "__main__":
         choice = choice.strip().lower()
 
         if choice == 'exit':
-            # Print the exit message with a final style
+            # Print the exit message with a style
             console.print(Text("You choose to leave the dark forest. Farewell.", style="bold magenta"))
             break
 
