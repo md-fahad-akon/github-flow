@@ -37,7 +37,7 @@ if __name__ == "__main__":
     while True:
         # Styled input prompt
         choice = Prompt.ask(
-            "[bold yellow]Which direction do you choose?[/bold yellow]",
+            "[yellow][bold]Which direction do you choose?[/bold][/yellow]",
             choices=["left", "right", "exit"],
             default="exit",
             show_choices=True
