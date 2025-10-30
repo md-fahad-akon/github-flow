@@ -45,8 +45,8 @@ if __name__ == "__main__":
         choice = choice.strip().lower()
 
         if choice == 'exit':
-            console.print("[red]You decide to stop your journey. The forest grows silent...[/red]")
-            console.print("[green]Thank you for playing! Good Bye! Safe travels, adventurer![/green]\n")
+            # Print the exit message with a final style
+            console.print(Text("You choose to leave the dark forest. Farewell.", style="bold magenta"))
             break
 
         result = step(choice, events)
